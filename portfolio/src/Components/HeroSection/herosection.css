@@ -1,0 +1,13 @@
+.hero-section{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.my-profile-img{
+    width: 100%;
+}
+.my-logo-img{
+    width: 100%;
+}

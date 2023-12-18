@@ -1,3 +1,7 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); */ /*LOGO*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@1,900&display=swap'); /*LOGO*/
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap'); /* NAVIGATION LINKS */
+
 nav{
     display: flex;
     align-items: center;
@@ -5,6 +9,15 @@ nav{
     height: 100px;
     width: 100%;
     background: #0B9D9B;
+}
+#logo{
+    color: #fff;
+    /* font-family: 'Pacifico', cursive; */
+    /* font-weight: normal; */
+    font-family: 'Playfair Display SC', serif;
+    letter-spacing: 5px;
+    font-size: 1.9rem;
+    cursor: pointer;
 }
 .navigation-links > .links {
     display: flex;
@@ -16,4 +29,62 @@ nav{
 .navigation-links > .links > li > a {
     list-style: none;
     text-decoration: none; 
+    color: #fff;
+    font-family: 'Playball', cursive;
+    font-size: 1.2rem;
+    font-weight: 800;
 }
+/* RESPONSIVE NAVBAR */
+.responsive-navbar {
+    display: none;
+  }
+  
+  .responsive-menu {
+    display: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  /* MEDIA QUERY FOR RESPONSIVENESS */
+  @media only screen and (max-width: 768px) {
+    .navigation-links {
+      display: none;
+    }
+  
+    .responsive-menu,
+    .responsive-navbar.open {
+      display: block;
+    }
+  
+    .responsive-navbar {
+      position: absolute;
+      top: 90px;
+      left: 0;
+      width: 100%;
+      background: #3da3a2;
+      text-align: center;
+      z-index: 1;
+    }
+  
+    .responsive-navbar ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 2rem;
+      font-family: 'Playball', cursive;
+      font-size: 1rem;
+    }
+  
+    .responsive-navbar li {
+      margin: 10px 0;
+    }
+  
+    .responsive-navbar a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+    }
+  }
