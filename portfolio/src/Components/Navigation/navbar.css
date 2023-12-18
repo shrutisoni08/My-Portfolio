@@ -1,0 +1,19 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    background: #0B9D9B;
+}
+.navigation-links > .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+}
+.navigation-links > .links > li > a {
+    list-style: none;
+    text-decoration: none; 
+}
