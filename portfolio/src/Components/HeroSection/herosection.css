@@ -1,13 +1,39 @@
-.hero-section{
+
+.hero-section {
     display: flex;
-    width: 100%;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    text-align: center;
+    background: #FF4C68;
+    height: 75vh;
+    padding-top: 2rem;
+  }
+  
+  .left-section,
+  .right-section {
     width: 100%;
-}
-.my-profile-img{
-    width: 100%;
-}
-.my-logo-img{
-    width: 100%;
-}
+  }
+  
+  .my-logo-img {
+    max-width: 100%;
+  }
+  
+  .my-profile-img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  /* Media queries for responsiveness */
+  @media only screen and (min-width: 768px) {
+    .hero-section {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .left-section,
+    .right-section {
+      width: 50%; /* Adjust the width as needed */
+    }
+  }
+  

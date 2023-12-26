@@ -19,10 +19,10 @@ const Navbar = () => {
         <div className={`navigation-links ${isMenuOpen ? 'active' : ''}`}>
           <ul className="links">
             <li>
-              <a href="#">ABOUT</a>
+              <a href="#about">ABOUT</a>
             </li>
             <li>
-              <a href="#">SKILLS</a>
+              <a href="#skills">SKILLS</a>
             </li>
             <li>
               <a href="#">CERTIFICATES</a>
