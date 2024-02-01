@@ -27,8 +27,8 @@ const AboutSection = () => {
           dynamic web realities that engage and inspire. Together, we can make
           the web a more beautiful and user-friendly place.
         </p>
-      </section>
       <hr />
+      </section>
     </>
   );
 };

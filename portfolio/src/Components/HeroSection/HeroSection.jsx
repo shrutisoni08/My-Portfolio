@@ -3,6 +3,7 @@ import './herosection.css'
 import image from '../../assets/profile illustration 3.jpeg'
 import logoImage from '../../assets/my-logo-name.png'
 
+
 const HeroSection = () => {
   return (
     <>

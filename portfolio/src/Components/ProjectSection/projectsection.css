@@ -1,0 +1,48 @@
+.project_section_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.projects_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:  2rem 0 0 4rem;
+    gap: 2rem;
+}
+.projectLogo{
+    width: 25vw;
+    border-radius: 60px;
+    transition:  all .3s ease-in-out;
+}
+.project_description>p{
+    text-align: justify;
+    width: 80%;
+    font-size: 1.3rem;
+}
+.project_description>.details{
+    font-size: 1rem;
+}
+.project_description>a>button{
+    width: 14rem;
+    font-size: 1.5rem;
+    padding: .5rem;
+    background-color: #FF4C68;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    letter-spacing: .1rem;
+    transition: all .3s ease;
+    font-family: 'Croissant One', cursive;
+    margin-top: 1.3rem;
+}
+.project_description>a>button:hover{
+    scale:  1.1;
+}
+.projectLogo:hover{
+    cursor: pointer;
+    scale:  1.1;
+}

@@ -5,6 +5,7 @@ import CertificateSection from "./Components/CertificateSection/CertificateSecti
 import HeroSection from "./Components/HeroSection/HeroSection";
 
 import Navbar from "./Components/Navigation/Navbar";
+import ProjectSection from "./Components/ProjectSection/ProjectSection";
 import SkillsSection from "./Components/SkillSection/SkillsSection";
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <AboutSection />
       <SkillsSection />
       <CertificateSection />
+      <ProjectSection />
     </>
   );
 };
