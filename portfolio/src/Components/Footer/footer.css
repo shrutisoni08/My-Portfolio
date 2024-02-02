@@ -1,0 +1,30 @@
+.footerbody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom:  2.5rem;
+}
+.footerbody>.details{
+    font-size: 1.2rem;
+    width: 85%;
+}
+.footerbody>.btn{
+    width: 12rem;
+    font-size: 1.3rem;
+    background-color:#FF4C68;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Croissant One', cursive;
+}
+.footerbody>.btn:hover{
+    scale: 1.1;
+    letter-spacing: 2px;
+    width: 14rem;
+    font-size:  1.4rem;
+}

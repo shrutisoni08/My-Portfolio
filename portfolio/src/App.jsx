@@ -2,6 +2,7 @@
 import "./App.css";
 import AboutSection from "./Components/AboutSection/AboutSection";
 import CertificateSection from "./Components/CertificateSection/CertificateSection";
+import Footer from "./Components/Footer/Footer";
 import HeroSection from "./Components/HeroSection/HeroSection";
 
 import Navbar from "./Components/Navigation/Navbar";
@@ -17,6 +18,7 @@ const App = () => {
       <SkillsSection />
       <CertificateSection />
       <ProjectSection />
+      <Footer />
     </>
   );
 };

@@ -11,6 +11,7 @@ import HTMLIMG from "../../assets/Certificates/Certificate - HTML.png";
 import CSSIMG from "../../assets/Certificates/Certificate - CSS.png";
 import JSIMG from "../../assets/Certificates/Certificate - JAVASCRIPT.png";
 import INTERNSHIPIMG from "../../assets/Certificates/Certificate - INTERNSHIP.png";
+import REACTIMG from "../../assets/Certificates/Certificate - REACT.png";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -47,6 +48,9 @@ const CertificateSection = () => {
         >
           <SwiperSlide>
           <img src={JSIMG} alt="javascript" />
+          </SwiperSlide>
+          <SwiperSlide>
+          <img src={REACTIMG} alt="javascript" />
           </SwiperSlide>
           <SwiperSlide>
             <img src={HTMLIMG} alt="html" />
