@@ -25,10 +25,10 @@ const Navbar = () => {
               <a href="#skills">SKILLS</a>
             </li>
             <li>
-              <a href="#">CERTIFICATES</a>
+              <a href="#certificate">CERTIFICATES</a>
             </li>
             <li>
-              <a href="#">PROJECTS</a>
+              <a href="#projects">PROJECTS</a>
             </li>
           </ul>
         </div>

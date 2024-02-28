@@ -12,6 +12,12 @@
     margin:  2rem 0 0 4rem;
     gap: 2rem;
 }
+.para{
+    font-family: 'Croissant One', cursive;
+    margin-top: 2rem;
+    font-size:  1.5rem;
+    letter-spacing: .1rem;
+}
 .projectLogo{
     width: 25vw;
     border-radius: 60px;
@@ -24,7 +30,27 @@
 }
 .project_description>.details{
     font-size: 1rem;
+    margin-top: 2rem;
 }
+#panel-header{
+    margin-top: 2rem;
+}
+#panel-header  button{
+    width: 14rem;
+    font-size: 1.5rem;
+    padding: .5rem;
+    background-color: #FF4C68;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    letter-spacing: .1rem;
+    transition: all .3s ease;
+    font-family: 'Croissant One', cursive;
+    margin-top: 1.3rem;
+    margin-left: 1.3rem;
+}
+
 .project_description>a>button{
     width: 14rem;
     font-size: 1.5rem;

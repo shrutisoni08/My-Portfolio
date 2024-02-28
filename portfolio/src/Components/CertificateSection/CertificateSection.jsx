@@ -22,7 +22,7 @@ const CertificateSection = () => {
   }, []);
   return (
     <>
-      <div className="container" data-aos="fade-up">
+      <div id="certificate" className="container" data-aos="fade-up">
         <h1 className="heading">My Certifications</h1>
         <Swiper data-aos="zoom-in-up"
           className="swiper-container"

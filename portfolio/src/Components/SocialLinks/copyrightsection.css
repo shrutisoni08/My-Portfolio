@@ -1,0 +1,24 @@
+.mainSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    background: #FF4B67;
+    height: 10rem;
+    padding-top: 2rem;
+}
+.socialLinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+.socialicon > a {
+    text-decoration: none;
+    color: #ffff;
+    cursor: pointer;
+}
+.copyRightDetails>p{
+    color: #ffff;
+}
