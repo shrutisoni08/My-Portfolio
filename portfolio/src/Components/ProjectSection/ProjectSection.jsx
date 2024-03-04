@@ -148,7 +148,7 @@ const ProjectSection = () => {
                         )
                       }
                     >
-                      Fashion_plaza
+                      SHOPOHOLIC
                     </button>
                   </a>
                 </AccordionSummary>

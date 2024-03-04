@@ -28,3 +28,11 @@
     width: 14rem;
     font-size:  1.4rem;
 }
+
+@media only screen and (max-width:426px) {
+    .footerbody>.details{
+    font-size: .9rem;
+    text-align: justify;
+    width: 100%;
+}
+}
